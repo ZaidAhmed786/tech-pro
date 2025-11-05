@@ -1,0 +1,231 @@
+.cards-section {
+  background: linear-gradient(to bottom, #e3f7dd, #ffffff);
+  padding: 60px 0;
+}
+.hero-section-sam {
+  background: url("../images/about-bg-img.jpg") center/cover no-repeat;
+  min-height: 70vh;
+  position: relative; /* ✅ important for absolute children */
+}
+
+.hero-section-sam::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 128, 85, 0.797);
+}
+
+
+.yms-cards-section{
+    background-color:#e7fff3 ;
+    
+}
+
+
+/* Cards */
+.card-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.yms-card {
+  background-color: white;
+}
+
+
+.card-icon {
+  font-size: 48px;
+  color: #e2b100;
+  margin-bottom: 20px;
+}
+
+.title-line {
+  width: 60px;
+  height: 6px;
+  background: #006837;
+  margin: 0 auto 25px;
+  border-radius: 6px;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #006837;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+.process-section {
+       background: linear-gradient(to bottom, #e7fff3 0%, #ffffff 100%);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.process-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #0a0a0a;
+}
+
+.process-step {
+  position: relative;
+  padding: 40px 20px;
+  background: transparent;
+}
+
+.process-step h2 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-size: 6rem;
+  color: rgba(0, 0, 0, 0.05);
+  font-weight: 800;
+  z-index: 0;
+}
+
+.process-content {
+  position: relative;
+  z-index: 1;
+}
+
+.process-content h4 {
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.process-content p {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+
+
+.section-title-2 {
+  font-size: 2.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title-2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #000;
+  margin: 10px auto 0;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  padding: 40px 30px;
+  text-align: center;
+  border-bottom: 3px solid #008000; /* Green underline */
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.testimonial-card h5 {
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.role {
+  color: #008000;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.testimonial-text {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 50%, 50%;
+  filter: invert(1);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+
+.contact-section {
+    background: linear-gradient(to bottom, #fffef9, #fff9ec);
+  padding: 80px 0;
+}
+
+.contact-form {
+  border-radius: 10px;
+}
+
+.contact-form .form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.contact-form .btn-success {
+  background-color: #006b35;
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+
+.contact-form .btn-success:hover {
+  background-color: #008543;
+}
+
+.contact-info p {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.contact-info .fs-5 {
+  color: #006b35;
+}
+
+.contact-info i {
+  font-size: 1.1rem;
+}
+
+
+@media (max-width: 768px) {
+.hero-section-sam {
+  background: url("../images/about-bg-img.jpg") center/cover no-repeat;
+  min-height: 50vh;
+  position: relative; /* ✅ important for absolute children */
+}
+}
