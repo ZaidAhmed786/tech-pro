@@ -41,7 +41,7 @@
 /* About Section */
 .about-section .heading {
   font-family: 'IBM Plex Serif', serif;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1.3;
 }
 
@@ -309,6 +309,11 @@
     .what-icon {
         font-size: 45px;
     }
+    .about-section .heading {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 35px;
+  line-height: 1.3;
+}
     
 }
 
